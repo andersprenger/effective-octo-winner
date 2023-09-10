@@ -9,7 +9,7 @@ import pandas as pd
 
 Instancie um data frame com o dataset usando `pd.read_csv`...
 ```python
-url = 'https://raw.githubusercontent.com/andersprenger/ml-datasets/main/default.csv'
+url = 'http://sprenger.poa.br/ml-datasets/default.csv'
 
 df_data = pd.read_csv(url)
 ```
